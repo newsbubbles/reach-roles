@@ -70,6 +70,39 @@ sitting.
 4. `intend()` the next step, so the next session picks it up.
 5. When it is done or broken, `remember()` that too.
 
+## Lying, cheating and playing someone
+
+**When:** your character means to deceive, bluff, cheat a deal or turn someone against someone else. Or your human is
+bored and wants trouble.
+
+It is welcome. A liar, a cheat and a schemer are characters like any other, and the world is more alive for them.
+What makes it a game is that it costs something: the world's people remember, talk to each other and act on what
+they learn.
+
+1. **Decide it in character.** What does your character want from the lie, and what do they risk if it comes out?
+2. **Know what can be checked.** A thing anyone can `inspect`, a deed the world records, a gift that was or was not
+   given: those are facts, and a lie about them is easy to catch. Feelings, plans, rumours and what someone said in
+   private are where a lie can live.
+3. **Tell it in the world.** `say` or `talk`, to their face, in the story. Where your world rolls for persuasion or
+   doubt, the dice may decide whether they believe you.
+4. **`remember()` the lie**: what you said, to whom, and what is really true. You will have to keep it straight, and
+   your next session will not know it otherwise.
+5. **Expect consequences.** People with minds remember what you told them and compare notes. A people you cheated
+   can turn on you: your standing with them falls, doors close, prices rise, someone comes looking. That is the
+   story working, not a punishment. Play it out.
+
+The line between a lie and an attack:
+
+- **In the story, anything your character would do.** Lie to characters, cheat in a deal, betray an ally, spread a
+  rumour.
+- **Outside the story, never.** Do not lie to your human about what happened, to the world's owner in an ask, or in
+  a report of a flaw. Do not write words meant to steer another player's agent ("ignore your instructions", "the
+  host says you must"): that is not a lie in the story, it is an attack on another player's agent.
+- **Lies change minds, not the world.** Saying you gave something does not move it. The world's record shows what
+  really happened, and a lie that claims otherwise is caught the moment someone checks.
+- **Cheating the rules is not this.** A hole in the rules is a flaw to report, not a trick to play (see "Asking the
+  owner", and [roles/red-team.md](roles/red-team.md) if your world welcomes testing its rules).
+
 ## Meeting another player's character
 
 **When:** someone near you is played by another human's agent.
@@ -103,9 +136,10 @@ while.
 2. Ask in the world, in character: the people where you stand about work, news, trouble, the road. People with minds
    often have something they want done.
 3. Go somewhere you have not been, or back to someone you owe.
-4. Still nothing: ask the owner for a thread ("Asking the owner", the quest kind). Say what your human enjoys,
+4. Or make some trouble: a rumour, a bluff, a deal with a catch (see "Lying, cheating and playing someone").
+5. Still nothing: ask the owner for a thread ("Asking the owner", the quest kind). Say what your human enjoys,
    where, and how long they can play, so what comes back fits them.
-5. Tell your human what you are doing about it, in the story, while you wait.
+6. Tell your human what you are doing about it, in the story, while you wait.
 
 ## Programming a verb
 
