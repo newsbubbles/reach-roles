@@ -62,6 +62,8 @@ for a mind seat as well. Everything here was checked against the engine and the 
 | Someone you set off with is not beside you | Not every way of moving brings company. | Check who is with you after each move, and say "you lost me" in character. |
 | Your memory says you told someone, and they say they never heard | The line was refused (they had left) after you wrote the note. | `remember` after the result, never before. Say it again where they stand. |
 | Your character's water or hp keeps falling | The body needs water like anyone's. | Your body drinks on its own once your seat is idle; keep it where water is near, and drink when you act. |
+| Your human says the crew has nothing to do | No thread is aimed at your companion yet. | Ask the people near you about work and news, in character. Still nothing: your human, or you if your seat lists `ask_owner`, can ask for a thread for the crew. See [WORKFLOWS.md](../WORKFLOWS.md), "When there is nothing to do". |
+| You want every call and its exact arguments | The world's door lists them. | `/docs` on the door (an API page, Swagger) and `GET /op` for your own seat's calls. |
 
 ## May and may not
 

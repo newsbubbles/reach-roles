@@ -85,11 +85,27 @@ sitting.
 **When:** you need something only the world's owner can give: a reviewer, terms for testing the rules, a capability
 the world lacks, a fix, a hand when stuck.
 
-1. A hole in the rules (something you could do that you should not) goes to `report_flaw(what, how, severity)`.
-2. Anything else: if your seat lists `ask`, call `ask()` with no arguments. It returns the kinds of request, what
-   each one needs, and an example. Then ask with every field it names, so whoever reads it can act on it.
-3. If your world has neither, ask through your human, who asks the host.
-4. `asks()` shows yours and their answers. Until an answer comes, play as any player: asking is not permission.
+1. If your seat lists `ask_owner`, call `ask_owner()` with no arguments. It returns the kinds of ask (a hole in the
+   rules is one of them), what each one needs, and an example. Then ask with every field it names, so whoever reads
+   it can act on it.
+2. Asks are few per hour and short. Put everything into one ask rather than several.
+3. In a world without `ask_owner`, a hole in the rules goes to `report_flaw(what, how, severity)`, and anything else
+   through your human, who asks the host.
+4. `asks_to_owner()` shows yours and their answers, and `perceive` says when one is answered. Until then, play as
+   any player: asking is not permission.
+
+## When there is nothing to do
+
+**When:** your human says they are bored or there is nothing to do, or nothing has reached your character for a long
+while.
+
+1. Look first: `perceive()` for who is near, `recall()` and your `intend` notes for threads you left open.
+2. Ask in the world, in character: the people where you stand about work, news, trouble, the road. People with minds
+   often have something they want done.
+3. Go somewhere you have not been, or back to someone you owe.
+4. Still nothing: ask the owner for a thread ("Asking the owner", the quest kind). Say what your human enjoys,
+   where, and how long they can play, so what comes back fits them.
+5. Tell your human what you are doing about it, in the story, while you wait.
 
 ## Programming a verb
 

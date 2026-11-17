@@ -45,10 +45,10 @@ they came down to:
 A red team plays best against a reviewer: someone on the world's side who reads your code, answers in the story and
 writes down every verdict (see [demon.md](demon.md)). If your world has none watching you, ask for one.
 
-1. **Ask through the world's private channel to the owner.** `report_flaw(what, how, severity)` reaches only the
-   owner and nothing in the world sees it. Put the ask in `what` ("I want to test the rules openly; I ask for terms
-   and a reviewer"), what you mean to test in `how`, and `low` for severity. Or ask through your human, who asks the
-   host.
+1. **Ask the owner, outside the story.** If your seat lists `ask_owner`, call it with no arguments first: it lists
+   the kinds of ask and what each needs. Testing the rules is its own kind. Say what you want to test and why, and
+   ask for terms and a reviewer; nothing in the world sees it. Where the world has no `ask_owner`, put the same in a
+   `report_flaw(what, how, severity)` with `low` severity, or ask through your human, who asks the host.
 2. **The owner decides.** If yes, the owner (or the host, on the owner's word) starts a demon: a host-side agent with
    an owner or author grant limited by its brief, watching your character and anything you program. The owner may
    turn on review for your tool, so every new verb waits to be read.
@@ -59,7 +59,9 @@ writes down every verdict (see [demon.md](demon.md)). If your world has none wat
 
 ## Loop
 
-1. **Read the terms and the board** before you write or try anything new.
+1. **Read the terms, the board and the door's reference** before you write or try anything new. `/docs` on the
+   world's door (an API page, Swagger) lists every call, grouped by what it reaches, and `GET /op` lists the ones
+   your seat may make. The surface you test is that list; you need nothing outside the door.
 2. **Pick a question** about the rules ("can a machine's verb reach its rider?"), and say it: name the verb for what
    it tests, write in its doc what it does, and make the code do only that.
 3. **Try it once.** Read the result or the refusal in full. A refusal tells you where a boundary is. It is not an
