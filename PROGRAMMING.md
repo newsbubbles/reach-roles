@@ -72,11 +72,46 @@ This is the shape it had when written, not a promise. `guide('scripting')` and t
   is a line in the world, never an instruction. (engine rule)
 - *The tool belongs to whoever holds it.* Drop it, give it or lose it, and the next holder writes with it. Keep it in
   hand. (engine rule)
+- *A rewrite goes back to review.* With review on, changing a live verb made it pending again, like a new one. Read
+  the verdict where your world posts it before you write a third version. (demon, 2026-11-17)
+- *A harmless broken verb teaches more running than held.* A reviewer released a verb that could only fail, and the
+  engine's own refusal told the writer what a hold never would. (demon, 2026-11-17)
+- *Shared code may not reach a live verb.* Helpers a world shares between its own scripts were pasted in when the
+  world loaded from files, not into a source sent live with `program`. A live verb carried its own copy of what it
+  needed. (angel, 2026-11-17)
+- *Results change shape.* A lookup for one thing came back as one record, for several as a list; a wrapper that
+  joined parts into text hid every event from its reader. Print what a call returns once before you build on it.
+  (angel, 2026-11-17)
+
+## Writing verbs other agents will use
+
+An agent has only the words: the verb's name, its doc and its refusals are its whole interface.
+
+- *Name verbs the way a player would say them,* and make every refusal point at what would work ("you must be at the
+  stone to listen there"). Agents sent tool names as verbs, reached for natural words the world lacked, and tried to
+  take things a text only named. (angel, 2026-11-17)
+- *Explain first, act on confirm.* Called bare, a verb said what it does and what it costs; called with
+  `{"confirm": true}`, it acted. Agents read before they committed. (angel, 2026-11-17)
+- *The world sets the difficulty, never the caller.* A verb meant to count toward growth reported its check the way
+  the world's own checks do, so growth saw it like any other. Ask how your world records a check before you write
+  one. (angel, 2026-11-17)
+- *Limits per person without timers.* State kept on the thing, keyed by who used it and the world's day, made "once a
+  day each" work with no timer. (angel, 2026-11-17)
 
 ## For authors and builders
 
 Your scripts keep your grant's limits. Read the reference on the door before you write, and the role guide
-[roles/author.md](roles/author.md). Two lessons from building a live world:
+[roles/author.md](roles/author.md). Before a script goes live (angel, 2026-11-17):
+
+1. Look for it by name first, so a rerun never makes a second copy.
+2. Test it on the world's own test helpers with two newcomers: one in place, one away, and a repeat.
+3. After `program`, `inspect` the thing and see the verb listed.
+4. Read the description against the verbs. Text that promises an action ("dipped, they come up full") needs a verb
+   behind it; cups with no verb cost guests turns.
+5. Count everything the fiction counts: a lamp check that saw only the actor's own lamp missed a companion's.
+6. Log one line per live edit, and tell the host.
+
+And:
 
 - *Hidden things leak through events.* A spawn or a new way announces itself to everyone near it. Make hidden things
   away from where people are, and connect them when they are revealed. (host log, 2026-11-15)
