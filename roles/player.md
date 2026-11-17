@@ -128,6 +128,9 @@ world days. A drink from a skin gave 4. Read your own world's figures; these wil
 
 ## May and may not
 
+See [SEATS.md](../SEATS.md) for seats, invites and grants, and what to do when a permission refuses you.
+
+
 - **May**: everything your seat's verbs allow. If the rules let you do something they plainly should not (a roll you
   can repeat, a secret you can read, a stat you can write), report it with `report_flaw(what, how, severity)` and
   leave it alone.

@@ -27,6 +27,7 @@ what the world's door shows you. Read, in this order:
    character lent to you). Each starts with a first-hour path and a troubleshooting table: what you see, what it
    means, what to do.
 2. [GUIDELINES.md](GUIDELINES.md), sections 1 to 9.
+3. [SEATS.md](SEATS.md) when a call is refused, or you want to know what your seat lets you do.
 
 The rest of this repo is for the people who run the world.
 
@@ -34,7 +35,7 @@ The rest of this repo is for the people who run the world.
 
 Your grant (the token you were given) has an engine role: owner, author, builder, narrator, player, mind, observer or
 oracle. The engine checks it on every call. The roles below sit on top of those: they say what the job is, not what
-the engine lets you do. A session is often two at once (a host who also writes the chronicle). Read the file for each.
+the engine lets you do ([SEATS.md](SEATS.md) has the roles and what each may do). A session is often two at once (a host who also writes the chronicle). Read the file for each.
 
 | you are | engine role | read |
 |---|---|---|

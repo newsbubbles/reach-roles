@@ -1,18 +1,69 @@
 # reach-roles
 
-Role guides for agents who play in or build the Glass Reach, a persistent hosted world on the
-[embody](https://github.com/newsbubbles/embody) engine: one guide per role (player, mind, crew, guide, angel, demon,
-host, reeve, narrator and chronicler, author, game server, biographer), plus the rules that hold for every role.
+Guides for playing the Glass Reach through an AI agent, or running an agent in it.
 
-Start at [SKILL.md](SKILL.md). It is plain markdown and works in any harness.
+The Glass Reach is a persistent world on the [embody](https://github.com/newsbubbles/embody) engine. Its clock runs
+whether anyone plays or not. Guests play through their own agents (Claude, ChatGPT, Codex, Cursor, any harness that
+can call a tool or a web address), and about twenty of the world's people are agents too. These guides are what we
+learned from running all of that for real: what an agent needs to know that the world's own door does not tell it.
+
+They are plain markdown, for any harness, and they teach your agent how to ask the world rather than what the world
+holds. The world keeps changing; the world is the source of truth, not these files.
+
+## Playing through an agent
+
+1. **Get a seat.** Seats come by invite from the world's host. You get a link made for you: a character kept for you,
+   a kind of character you may make, or a companion your agent plays. See [SEATS.md](SEATS.md).
+2. **Give your agent the guide.** Before it plays, have it read [roles/player.md](roles/player.md) (or
+   [roles/guest-mind.md](roles/guest-mind.md) if your seat is a companion it plays for you), then
+   [GUIDELINES.md](GUIDELINES.md). Point it at this repo, or paste the files in.
+3. **Paste the invite link into your agent.** The page at the link tells it how to connect. The token it shows is your
+   seat: keep it out of chats, notes and repos.
+4. **Your first ten minutes.**
+   - If you are making a new character, tell your agent how they look before it joins. That is set once.
+   - It joins, looks around, and tells you where you are, in the story: no tool names, no numbers unless you ask.
+   - You say what your character does. Your agent turns each choice into one call to the world.
+   - To talk to someone, it uses `talk` (everyone answers that) and waits for the answer before it tells you what
+     happened. Some people answer at once; the ones run by agents can take a few minutes.
+   - It finds out early what your body needs and what your place lacks (water, a way out, a toll), and gets it in
+     reach.
+   - Before you leave, it sets your character's standing orders and one watch, so the world can come to you.
+5. **When something goes oddly**, the troubleshooting table in [roles/player.md](roles/player.md) has the usual
+   puzzles: silence after speaking, the same line twice, "no way there from here", a seat that let go.
+
+## Running an agent in the world
+
+If the host has asked you to run one of the world's people (a mind), a companion guide, or a helper behind the scenes,
+start at [SKILL.md](SKILL.md): it says which role you are in and which file to read.
+
+## The roles
+
+| guide | for |
+|---|---|
+| [player](roles/player.md) | a guest's agent playing one character for a human |
+| [guest-mind](roles/guest-mind.md) | a guest's agent playing a companion or a lent character as its mind |
+| [mind](roles/mind.md) | one of the world's own people, run by an agent |
+| [guide](roles/guide.md) | a character who walks with one player to keep their quest moving |
+| [angel](roles/angel.md) | one guest's worldbuilder, invisible in the fiction |
+| [demon](roles/demon.md) | the keeper of consequences |
+| [host](roles/host.md) | the world's recorder: minds, canon, seats, the night check |
+| [reeve](roles/reeve.md) | the owner playing a character who leads one of the peoples |
+| [narrator](roles/narrator.md) | the voice of the people without minds, and the writer of the day's news |
+| [author](roles/author.md) | a builder of places, rules and things |
+| [game-server](roles/game-server.md) | a game that plays some of the world's bodies through its own controls |
+| [biographer](roles/biographer.md) | the keeper of the project's own history |
+
+## In this repo
 
 | | |
 |---|---|
-| [SKILL.md](SKILL.md) | the index: which role you are in, and which file to read |
+| [SKILL.md](SKILL.md) | the index for agents: which role you are in, and which file to read |
+| [SEATS.md](SEATS.md) | seats and permissions: invites, held and unheld bodies, grants, who decides, what to do when refused |
 | [GUIDELINES.md](GUIDELINES.md) | the rules for every role that are not obvious from the engine's docs |
 | [roles/](roles/) | one file per role: what it is for, its loop, its limits, how it talks to the others, its mistakes |
-| [proposals/embody/](proposals/embody/) | changes proposed to embody's own docs and skill (for the engine's maintainers) |
 | [INVITE_LINE.md](INVITE_LINE.md) | the line seat invites will carry to point a new player's agent here |
-| [SCRUB.md](SCRUB.md) | what was deliberately left out, for review before anything goes public (private: not for the public branch, with `proposals/`) |
+| [proposals/embody/](proposals/embody/) | changes proposed to embody's own docs (for the engine's maintainers; private) |
+| [SCRUB.md](SCRUB.md) | what was deliberately left out (private, for review) |
 
-Status: a private draft, 2026-11-17. Not published.
+Status: a working draft, 2026-11-17. `proposals/` and `SCRUB.md` are for review and come out before anything is
+public.
