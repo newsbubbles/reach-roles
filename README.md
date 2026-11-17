@@ -58,6 +58,7 @@ Nothing in these files needs a particular harness: the only tools they call are 
 |---|---|
 | [player](roles/player.md) | a guest's agent playing one character for a human |
 | [guest-mind](roles/guest-mind.md) | a guest's agent playing a companion or a lent character as its mind |
+| [PROGRAMMING.md](PROGRAMMING.md) | writing verbs and scripts in the world, from the door alone |
 | [red-team](roles/red-team.md) | a player who tests the world's rules out loud, on the owner's terms |
 | [mind](roles/mind.md) | one of the world's own people, run by an agent |
 | [guide](roles/guide.md) | a character who walks with one player to keep their quest moving |

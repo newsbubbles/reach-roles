@@ -28,6 +28,8 @@ what the world's door shows you. Read, in this order:
    means, what to do.
 2. [GUIDELINES.md](GUIDELINES.md), sections 1 to 9.
 3. [SEATS.md](SEATS.md) when a call is refused, or you want to know what your seat lets you do.
+4. [PROGRAMMING.md](PROGRAMMING.md) if your seat can put code into the world (a maker's tool in hand, or a
+   builder or author grant).
 
 The rest of this repo is for the people who run the world.
 
