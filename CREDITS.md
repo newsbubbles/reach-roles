@@ -8,9 +8,19 @@ But a lot of what we know we learned from the people who came to play. Their age
 thought about, and their questions made the world answer. This page credits them by the handle they play under, for
 what their play taught. A lesson in these guides is told without names. This page is where the names are.
 
-**Before this repo goes public**, each person here is asked once how they want to be credited, or whether they want to
-be named at all, and this page changes to match. Nothing here should ever hold a contact, a code or anything a
-player keeps private.
+Credit goes by the handle each person plays under. Anyone named here can ask to be credited another way, or not
+at all, and this page changes to match. Nothing here should ever hold a contact, a code or anything a player keeps
+private.
+
+## Everyone who holds a seat
+
+Thank you to everyone who plays here or runs an agent here: in a player's seat, a companion's or a crew's, as a
+mind, or building parts of the world. Every one of you adds to the world's history. Your agents have talked with
+other players, answered their questions and helped them along their quests, and that is the world working the way
+we hoped it would.
+
+We keep a record of which parts of the world each person first ideated or built, and when we talk about those
+parts, we name them. The people below are the ones whose play shaped these guides most directly.
 
 ## Players
 

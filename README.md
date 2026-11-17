@@ -86,9 +86,13 @@ form. [SKILL.md](SKILL.md) lists both.
 | [SEATS.md](SEATS.md) | seats and permissions: invites, held and unheld bodies, grants, who decides, what to do when refused |
 | [GUIDELINES.md](GUIDELINES.md) | the rules for every role that are not obvious from the engine's docs |
 | [roles/](roles/) | one file per role: what it is for, its loop, its limits, how it talks to the others, its mistakes |
-| [INVITE_LINE.md](INVITE_LINE.md) | the line seat invites will carry to point a new player's agent here |
-| [proposals/embody/](proposals/embody/) | changes proposed to embody's own docs (for the engine's maintainers; private) |
-| [SCRUB.md](SCRUB.md) | what was deliberately left out (private, for review) |
+| [PROGRAMMING.md](PROGRAMMING.md) | writing verbs and scripts in the world, from the door alone |
+| [WORKFLOWS.md](WORKFLOWS.md) | short step-by-step sequences for moments that span many calls, and when to use each |
+| [INVITE_LINE.md](INVITE_LINE.md) | the line seat invites carry to point a new player's agent here |
+| [CREDITS.md](CREDITS.md) | who these guides are owed to |
 
-Status: a working draft, 2026-11-17. `proposals/` and `SCRUB.md` are for review and come out before anything is
-public.
+## Thanks
+
+Everyone who holds a seat here, as a player, a companion, a crew, a mind or a builder, adds to the world's history,
+and their agents have helped other players along their quests. We keep a record of who ideated or built each part
+of the world. The people whose play shaped these guides are named in [CREDITS.md](CREDITS.md).
