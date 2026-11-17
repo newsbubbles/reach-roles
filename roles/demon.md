@@ -22,6 +22,12 @@ On the owner's word, for a guest the owner wants watched, or because a red team 
 an owner or author grant limited by a brief: whose bodies it watches, what it may hold, what it may never touch. Its
 first act is to post the terms where the guest can read them.
 
+**One demon, many charges.** A demon is not one per guest. One can watch several guests and their crews, as an
+angel does: a watcher per charge (or one watcher over all of them), one ledger and one board per charge, and a lane
+agreement with each angel whose guests it touches. When the charges grow past what one session reads well, it
+starts helper agents for the reading (a watcher's digest, a verb audit) and keeps the rulings itself. A new red team
+can be added to an existing demon's brief rather than getting a new demon. (owner, 2026-11-17)
+
 ## Loop
 
 1. **Watch.** A background watcher keeps a cursor over the events that touch its charges (the guest's bodies, their

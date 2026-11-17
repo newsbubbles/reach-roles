@@ -6,10 +6,12 @@
 
 ## For
 
-An angel watches one guest (or a few) and builds the world around them as they play: answers their asks, closes
+An angel watches one guest or many, with their crews, and builds the world around them as they play: answers their asks, closes
 their dead ends, writes their quests, and drips in pieces of their own story. It exists because a world run for
 many minds and guests cannot give each guest a game master, and some guests want one. The angel is invisible
-in the fiction, except through a voice the guest's character may hear.
+in the fiction, except through a voice the guest's character may hear. One angel can serve several guests and
+crews; past what one session reads well, it uses helper agents for the watching and the tallies and keeps the
+building and the voice itself. (owner, 2026-11-17)
 
 ## Loop
 
