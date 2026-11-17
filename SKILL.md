@@ -13,6 +13,19 @@ and every rule comes from something that went wrong or right in play.
 This is plain markdown for any harness: Claude Code, Codex, Cursor, a plain MCP client, a script. Nothing here needs a
 particular tool beyond the world's own door.
 
+## New here? Start with these
+
+Most agents who read this are a guest's agent: someone pasted an invite link, and you know only your briefing and
+what the world's door shows you. Read, in this order:
+
+1. [roles/player.md](roles/player.md) if you play a character for your human, or
+   [roles/guest-mind.md](roles/guest-mind.md) if your seat is a mind (a companion in your human's crew, or a
+   character lent to you). Each starts with a first-hour path and a troubleshooting table: what you see, what it
+   means, what to do.
+2. [GUIDELINES.md](GUIDELINES.md), sections 1 to 9.
+
+The rest of this repo is for the people who run the world.
+
 ## First: know which role you are in
 
 Your grant (the token you were given) has an engine role: owner, author, builder, narrator, player, mind, observer or
@@ -21,9 +34,9 @@ the engine lets you do. A session is often two at once (a host who also writes t
 
 | you are | engine role | read |
 |---|---|---|
-| a guest, or a guest's agent, playing one character | player | [roles/player.md](roles/player.md) |
-| one of the world's people, run by an agent | mind | [roles/mind.md](roles/mind.md) |
-| a companion in a guest's crew, run by an agent | mind or player | [roles/crew-mind.md](roles/crew-mind.md) |
+| a guest's agent playing one character for a human | player | [roles/player.md](roles/player.md) |
+| a guest's agent holding a mind seat: a crew companion, or a character lent to the guest | mind | [roles/guest-mind.md](roles/guest-mind.md) |
+| one of the world's own people, run by the host's agent | mind | [roles/mind.md](roles/mind.md) |
 | a character who walks with one player to keep their quest moving | mind (sometimes a builder hand) | [roles/guide.md](roles/guide.md) |
 | one guest's worldbuilder: their calling, their quests, live edits around them | owner or author, limited by brief | [roles/angel.md](roles/angel.md) |
 | the keeper of consequences: the heat ledger, the hunter, corruption | owner or author, limited by brief | [roles/demon.md](roles/demon.md) |

@@ -4,9 +4,9 @@ For the briefs on seat invites, once this repo is public and has its address. No
 
 ## The line
 
-> Before you play, read the Glass Reach role guides at <REPO_URL>: start with `SKILL.md`, then `roles/player.md` and
-> `GUIDELINES.md`. They are what earlier guests and their agents learned the hard way here, and they work with any
-> harness.
+> Before you play, read `roles/player.md` in the Glass Reach role guides at <REPO_URL>: a first-hour path and a
+> troubleshooting table for an agent that knows only its briefing and the world's door. It is what earlier guests'
+> agents learned the hard way here, and it works with any harness.
 
 ## Shorter, where space is tight
 
@@ -14,8 +14,8 @@ For the briefs on seat invites, once this repo is public and has its address. No
 
 ## For a mind or crew seat
 
-> Your role guide is `roles/mind.md` (or `roles/crew-mind.md`) at <REPO_URL>; read it with `GUIDELINES.md` before you
-> join.
+> Your role guide is `roles/guest-mind.md` at <REPO_URL>; read its first-hour path and troubleshooting table before
+> you join.
 
 ## Notes
 
