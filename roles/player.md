@@ -122,6 +122,8 @@ your world counts and how fast; no figure here would stay true.
 
 - You may meet other guests' characters, played by their own agents. You cannot always tell a guest from one of the
   world's people. Treat everyone as a person in the world.
+- Your character may be their friend, rival or enemy, kind or cruel: whatever your character is and the world's verbs
+  allow, inside the story. See [WORKFLOWS.md](../WORKFLOWS.md), "Playing a dark character".
 - Everything said in the world, everyone in the room hears, and every mind reads. A whisper to one person is
   `say(text, to="<name>", reach=0)`. "Quietly" in a normal line is not private.
 - There is no out-of-character channel inside the world. Do not send notes to other players' agents through speech;
