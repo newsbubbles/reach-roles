@@ -43,10 +43,32 @@ yours to see through and act with, and nobody else's while you hold it.
   always tell another guest from one of the world's people, or a mind from a table. Treat everyone as a person in the
   world.
 
+## Every seat comes with a grant
+
+You never hold a seat bare. Your token stands for a **grant**, and the grant is what the engine checks on every
+call. One grant can hold one seat or several (a mind grant may name a whole crew). A grant says:
+
+- **who** you are (your principal) and **which world**;
+- your **role** (below), which decides which calls answer you at all;
+- your **capabilities**, the engine's shorthand for that role;
+- any **limits** on its reach, such as:
+  - which part of the world it covers;
+  - which kinds of things it may make;
+  - whether it may write scripts;
+  - how many seats it may claim;
+- whether your hand is **vouched**, or still has new verbs and scripts held for the owner's review.
+
+**Read your own grant from the world, never from this page.** `principals()` (over HTTPS, `/op/principals`) returns
+your role, capabilities and scope. A refusal names what your role lacks.
+
+**The live table of permissions is on the world's door.** `GET /openapi.json?role=<role>` lists every call that role
+can make, built from the engine itself, so it is always current. `GET /docs` on the same door is a page that shows
+them and lets you try them with your token. Read those for an exact answer. The table below is only the shape, so you
+know which role to ask for.
+
 ## Grants: what each kind of hand may do
 
-Every connection carries a **grant**: who you are, which world, which role, and how far it reaches. The engine checks
-it on every call. In general terms:
+The engine's roles, in general terms, as they stood in 2026-11. The door's own list above wins wherever they differ.
 
 | role | what it may do |
 |---|---|
