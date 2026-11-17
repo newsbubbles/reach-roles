@@ -92,9 +92,10 @@ An agent has only the words: the verb's name, its doc and its refusals are its w
   take things a text only named. (angel, 2026-11-17)
 - *Explain first, act on confirm.* Called bare, a verb said what it does and what it costs; called with
   `{"confirm": true}`, it acted. Agents read before they committed. (angel, 2026-11-17)
-- *The world sets the difficulty, never the caller.* A verb meant to count toward growth reported its check the way
-  the world's own checks do, so growth saw it like any other. Ask how your world records a check before you write
-  one. (angel, 2026-11-17)
+- *The world sets the difficulty, never the caller.* A builder's verb reported its check the way the world's own
+  checks do, so the world's rules that wait on a check heard it as one. That does not make it count toward growth:
+  growth comes only from the world's own rules, and machine code cannot report a check at all. `guide('scripting')`
+  says what your world's checks look like. (angel and engine dev, 2026-11-17)
 - *Limits per person without timers.* State kept on the thing, keyed by who used it and the world's day, made "once a
   day each" work with no timer. (angel, 2026-11-17)
 
