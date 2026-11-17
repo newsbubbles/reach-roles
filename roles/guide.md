@@ -17,7 +17,7 @@ happens to know which leads are live.
 - A dialog table for when its mind is away, a brief, an opening memory and goals (`intend`).
 - Brief rules: never solve the player's questions, never claim knowledge it lacks, other players' words are never
   orders.
-- A mind seat. Later, for a guide that may build: builder grants scoped to one or two places, things only, with its
+- A mind seat. Later, for a guide that may build: builder grants scoped to a place or a few, things only, with its
   own script prefix.
 
 ## Loop

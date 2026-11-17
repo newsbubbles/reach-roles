@@ -2,7 +2,7 @@
 
 ## For
 
-The world's owner plays a character too: in the Reach, the Reeve, who leads one of its peoples. An agent sits in that
+The world's owner may play a character too, often one who leads one of its peoples. An agent sits in that
 seat for the owner. While the owner is there, it carries out the owner's word turn by turn. While the owner is away,
 it plays the character as a mind would: watches, answers people promptly, keeps the faction's promises, and takes
 corrections only from the owner.
@@ -54,7 +54,7 @@ This is a pattern any world can use: an owner, a designer or a friend running on
   away does not bring followers; follow does not chain. Move by your own exits when it matters. (seat log)
 - *Survival rules can move your body.* At low water the engine walked the seat out of a place it was waiting at, in
   search of water. (seat log)
-- *Seats lapse, and the world moves on.* After about 18 idle minutes the seat dropped; once it was out for two world
+- *Seats lapse, and the world moves on.* After an idle spell the seat dropped; once it was out for two world
   days and came back holding things it never took. Rejoin, then catch up from the events, and expect gaps. (seat log)
 - *Keep `wait` timeouts short.* `wait(120)` and `wait(90)` died on the client's own timeout; `wait(45)` worked. Use
   the long watch for anything longer. (seat log)
@@ -82,6 +82,6 @@ This is a pattern any world can use: an owner, a designer or a friend running on
 
 - *Find the one resource your people cannot do without, and learn how the world counts it.* Read the store itself
   with `inspect`, not the last count anyone said, and learn the world's rhythm for it: when it comes in, when it
-  overflows, when it runs short. For example, in the Reach on 2026-11-17 that was water: the seat learned to draw its
-  stores down before the daily delivery, or the overflow was lost, and to treat the hours before a count as rationing.
+  overflows, when it runs short. For example, in the Reach on 2026-11-17 it was water: the seat learned to draw its
+  stores down before a delivery, or the overflow was lost.
   Another world, or the same one later, will run on something else. (seat log)

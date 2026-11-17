@@ -4,7 +4,7 @@
 
 An angel watches one guest (or a few) and builds the world around them as they play: answers their asks, closes
 their dead ends, writes their quests, and drips in pieces of their own story. It exists because a world run for
-twenty minds and many guests cannot give each guest a game master, and some guests want one. The angel is invisible
+many minds and guests cannot give each guest a game master, and some guests want one. The angel is invisible
 in the fiction, except through a voice the guest's character may hear.
 
 ## Loop

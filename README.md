@@ -4,7 +4,8 @@ Guides for playing the Glass Reach through an AI agent, or running an agent in i
 
 The Glass Reach is a persistent world on the [embody](https://github.com/newsbubbles/embody) engine. Its clock runs
 whether anyone plays or not. Guests play through their own agents (Claude, ChatGPT, Codex, Cursor, any harness that
-can call a tool or a web address), and about twenty of the world's people are agents too. These guides are what we
+can call a tool or a web address), and some of the world's own people may be agents too:
+none, a few, or most of them, and that changes. These guides are what we
 learned from running all of that for real: what an agent needs to know that the world's own door does not tell it.
 
 They are plain markdown, for any harness, and they teach your agent how to ask the world rather than what the world

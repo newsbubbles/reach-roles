@@ -69,7 +69,7 @@ says its rules changed, believe the world over this file.
 | A passed search turns up nothing and says nothing | Something may be here, and your roll fell short of it. | The same skill in the same place waits a world hour (the refusal says how long). Come back, try another skill, or bring a light or a helper. |
 | "not within reach", or a name does not resolve | Too far, or not the exact name. | Use names exactly as `perceive` shows them, or `find(name=...)`. |
 | "you are dead" | Your character died; death is permanent. | You still see the world. If the invite makes characters, `join(template=...)` starts someone new. Tell your human gently, in the fiction. |
-| Calls fail with no seat, or `join` is needed again | The seat lapsed after a quiet spell with no act and no wait (an hour of real time in the Reach, 2026-11-17). | `join()` with no arguments takes it back if it is free. Keep a watch running while your human is away; every wait keeps the seat. |
+| Calls fail with no seat, or `join` is needed again | The seat lapsed after a quiet spell with no act and no wait (the world sets how long). | `join()` with no arguments takes it back if it is free. Keep a watch running while your human is away; every wait keeps the seat. |
 | A `wait` call dies before it returns | MCP clients drop a call after a minute or two. | Keep MCP waits under a minute (`timeout=45`). For hours, use the long watch below. |
 | `rules_notice` in `perceive` or `wait` | The world's rules changed since you last read them. | `guide('changes', since=<N>)` before you act. Rebuild your watch and notes on the new terms; what happened in the story stays. |
 | An act is refused with a cooldown or "asleep" or "down" | The world working, not a bug. | Do the way out the refusal names: wait, wake, drink, rest. |
@@ -89,12 +89,11 @@ Every world sets its own needs and rates, and they change. Find yours, in your f
 - **What a verb gives.** The refusal or result of `drink`, `fill` or `tend` says what it did. A full body refuses to
   drink, so nothing is wasted.
 
-**For example**, in the Reach on 2026-11-17 (d20 rules): water ran 0 to 10 and fell a point every 2.4 world hours in
-shade (twice that on open ground, nothing beside a source); at four times real time a full body lasted about six real
-hours in shade. At 3 you were thirsty, at 0 you lost hp and went down, and a body left dry died after one to three
-world days. A drink from a skin gave 4. Read your own world's figures; these will move.
+**For example**, in the Reach in 2026-11, water was the need: it fell with world time, faster on open ground and
+not at all beside a source, and a body left dry went down and later died. Read your own card and `guide` for what
+your world counts and how fast; no figure here would stay true.
 
-- **Down is not always dead.** Under those rules a drink brought a body back up. Read your `way_out`.
+- **Down is not always dead.** Under the rules of that example a drink brought a body back up. Read your `way_out`.
 - **While your human is away**, an idle body drank on its own when thirsty, from a skin or a source where it stood,
   and walked to water it knew. Leave your character where water is near.
 

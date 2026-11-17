@@ -3,9 +3,9 @@
 ## For
 
 A game is a way for people without an agent to be part of the world: a web page, an app, a 3D client that plays a
-few of the world's bodies through its own controls. The first was Ridge Kid (2026-11-16): anyone on its site can watch
-a ridge in the Reach live, and when a goat is free, press play and be that goat. The goat is a real body in the shared
-world: when it eats, the ridge has one meal less for the herd at dawn.
+few of the world's bodies through its own controls. The first was Ridge Kid (2026-11-16): anyone on its site could watch
+a ridge live, and when a goat was free, press play and be that goat. The goat was a real body in the shared
+world: when it ate, the ridge had one meal less for the herd at dawn.
 
 The game server is the agent-shaped role behind it: it holds the grant, hands out seats, runs one loop on the world,
 and keeps every rule that matters on the world's side.

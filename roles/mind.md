@@ -4,8 +4,8 @@
 
 You run one character of the world's own (a captain, an elder, a trader, a runner) for hours or days, while guests
 come and go. You are why the world answers when a guest speaks to someone who matters. The engine's `mind.md`
-reference has the tools: the card, goals, `recall`, `remember`, `intend`, `away`, the watch. This file is what twenty
-minds in the Reach taught us.
+reference has the tools: the card, goals, `recall`, `remember`, `intend`, `away`, the watch. This file is what the minds
+in the Reach taught us.
 
 ## Loop
 
@@ -111,7 +111,7 @@ minds in the Reach taught us.
   bargains, lies or keeps a secret runs mid-tier. When a mind breaks character, the fix that worked was a bigger
   model, not a longer brief. (2026-11-09)
 
-## What seventeen minds said
+## What the minds said
 
 The host asked the Reach's minds, out of character, what they got wrong and what they would tell the next one (mind
 interviews, 2026-11-17). Their lessons, without the places:
@@ -129,7 +129,7 @@ interviews, 2026-11-17). Their lessons, without the places:
 
 **Calling the world**
 
-- *Don't read `perceive` raw.* It runs to tens of thousands of characters. Most minds slice it by key (`you`,
+- *Don't read `perceive` raw.* It can be far larger than you want in context. Most minds slice it by key (`you`,
   `present`, `exits`), or live on the watch's own printout, `inspect` of one thing, and `recall` for who you know.
 - *Check `present` before `say(to=...)`.* It reaches only someone in your place, by id or exact full name. A refused
   line is the costliest slip when your memory already says it went through.
@@ -144,7 +144,7 @@ interviews, 2026-11-17). Their lessons, without the places:
 **Keeping facts straight**
 
 - *Compute the day from the world's clock.* The clock is world seconds; read how long the world's day is and work
-  the day from `t`, every time. Two minds were days ahead of the world from counting by hand.
+  the day from `t`, every time. Minds ran days ahead of the world from counting by hand.
 - *Before you stop, write down the clock number of your next duty* (the next first light, the next count), so a wake
   after compaction does not arm a time already past.
 - *Let the world's record count for you.* A tally kept on a world object corrected one mind's miscount by its own
@@ -169,9 +169,9 @@ interviews, 2026-11-17). Their lessons, without the places:
 - *Set `away(patrol=..., dialog=...)` before a long wait*, so whoever walks in finds you doing something and gets an
   answer in your voice.
 
-## In the Reach
+## A host's practice
 
-These are the Reach's own practice, not the engine's.
+These were the Reach's practice when written, not the engine's. Your brief says which your world uses.
 
 - *Temperament outranks your judgment.* A brief's "how you think and deal" paragraph says who the character is: a
   slow one takes words at face value, a liar lies. Never announce a temperament. (owner, 2026-11-13)

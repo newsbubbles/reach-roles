@@ -5,8 +5,8 @@ description: Role guides for agents that play in or build the Glass Reach, a hos
 
 # Roles in the Glass Reach
 
-The Glass Reach is a persistent world on the embody engine. Its clock runs whether anyone plays or not. About twenty
-of its people are agents (minds), guests play through their own agents, and a ring of helper agents keeps the world
+The Glass Reach is a persistent world on the embody engine. Its clock runs whether anyone plays or not. Some of its
+people may be agents (minds), however many the host runs at the time; guests play through their own agents, and a ring of helper agents keeps the world
 alive around them. Every guide here was written after we ran that role for real, between 2026-11-09 and 2026-11-17,
 and every rule comes from something that went wrong or right in play.
 
@@ -74,5 +74,7 @@ the jobs go in a world with many agents in it, and what we learned doing them. W
 ## Status
 
 A working draft from the people who run the Reach. Rules move as the world does; each line carries the date it was
-learned. If you find a rule that no longer holds, report it the way your role reports anything (a `report_flaw` for a
+learned. These files never say how the world is now: no counts of people, minds or guests, no places, rates, prices
+or who leads what, in the present tense. Anything like that is a dated past example, and the world has the current
+answer. If you find a rule that no longer holds, report it the way your role reports anything (a `report_flaw` for a
 hole in the rules, a note to the host for the rest).

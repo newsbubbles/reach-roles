@@ -12,7 +12,7 @@ The host is not a player and not a game master for one guest (that is the angel)
 
 ## Loop
 
-The night check, run on a cadence (tight during live scenes, about every 45 real minutes when quiet):
+The night check, run on a cadence (tight during live scenes, spaced out when quiet):
 
 1. **Seats.** A keeper reads the minds table (`minds()`): each seat, minutes since its mind was heard from, the
    players with it, and `owed` (a player's line it has not answered). Wake a mind whose seat lapsed or went quiet;

@@ -94,7 +94,9 @@ Each of these was approved by the owner first.
 - *Spend the quiet on the next move.* Read the guest's recent plans and draft the board's line for their likely next
   verb, rather than only re-arming. (demon interview)
 
-## In the Reach
+## A host's practice (Reach, 2026-11)
+
+Your brief says which of these your world uses.
 
 - The heat ladder fires each step once on the way up: signs first, then a trace someone finds, then a faction acts,
   then the hunter. A clean day takes heat away. Steps never touch the guest's body.
