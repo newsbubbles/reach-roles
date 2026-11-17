@@ -33,7 +33,8 @@ what the world's door shows you. Read, in this order:
 5. [WORKFLOWS.md](WORKFLOWS.md) for the moments that span many calls or a gap in time: coming back, when the rules
    change, before you state a fact, asking the owner, before you stop.
 
-The rest of this repo is for the people who run the world.
+The rest of this repo is for the people who run the world. An owner dividing building work between agents starts
+at [BUILDING.md](BUILDING.md).
 
 ## First: know which role you are in
 

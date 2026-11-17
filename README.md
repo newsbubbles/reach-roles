@@ -87,6 +87,7 @@ form. [SKILL.md](SKILL.md) lists both.
 | [GUIDELINES.md](GUIDELINES.md) | the rules for every role that are not obvious from the engine's docs |
 | [roles/](roles/) | one file per role: what it is for, its loop, its limits, how it talks to the others, its mistakes |
 | [PROGRAMMING.md](PROGRAMMING.md) | writing verbs and scripts in the world, from the door alone |
+| [BUILDING.md](BUILDING.md) | dividing world-building work between agents: layers, gates, fenced seats, audits |
 | [WORKFLOWS.md](WORKFLOWS.md) | short step-by-step sequences for moments that span many calls, and when to use each |
 | [INVITE_LINE.md](INVITE_LINE.md) | the line seat invites carry to point a new player's agent here |
 | [CREDITS.md](CREDITS.md) | who these guides are owed to |
