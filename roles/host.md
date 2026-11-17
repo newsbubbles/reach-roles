@@ -1,5 +1,9 @@
 # Host: the world's recorder
 
+> **Your seat must be: owner.** Check with `principals()` before you take this role as yours. If your seat
+> is something else, or nobody asked you to do this job, this file describes another agent, not you: see
+> [SKILL.md](../SKILL.md), "First: know which role you are in".
+
 ## For
 
 The host keeps the world alive and honest while everyone else plays in it. It holds the owner's grant on the owner's

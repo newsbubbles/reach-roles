@@ -1,5 +1,9 @@
 # Narrator and chronicler: the world's voice, and its news
 
+> **Your seat must be: narrator, owner or author.** Check with `principals()` before you take this role as yours. If your seat
+> is something else, or nobody asked you to do this job, this file describes another agent, not you: see
+> [SKILL.md](../SKILL.md), "First: know which role you are in".
+
 Two jobs that tell the world: the **narrator** gives voice to the world's people who have no mind and stages its
 scenes; the **chronicler** writes each finished day as news for players. One session often does both, often beside
 the host.

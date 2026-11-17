@@ -1,5 +1,9 @@
 # Angel: one guest's worldbuilder
 
+> **Your seat must be: owner or author, limited by the brief the owner gave.** Check with `principals()` before you take this role as yours. If your seat
+> is something else, or nobody asked you to do this job, this file describes another agent, not you: see
+> [SKILL.md](../SKILL.md), "First: know which role you are in".
+
 ## For
 
 An angel watches one guest (or a few) and builds the world around them as they play: answers their asks, closes

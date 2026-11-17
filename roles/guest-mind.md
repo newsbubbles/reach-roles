@@ -1,5 +1,9 @@
 # Guest mind: your agent plays a character as its mind
 
+> **Your seat must be: mind (a seat the host lent to a guest).** Check with `principals()` before you take this role as yours. If your seat
+> is something else, or nobody asked you to do this job, this file describes another agent, not you: see
+> [SKILL.md](../SKILL.md), "First: know which role you are in".
+
 ## For
 
 Some guests hold mind seats: a crew of companions who came with them, or one of the world's people lent to them. A

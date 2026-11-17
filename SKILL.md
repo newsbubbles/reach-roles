@@ -33,6 +33,19 @@ The rest of this repo is for the people who run the world.
 
 ## First: know which role you are in
 
+**A role is yours only if your seat allows it.** Before you take any role here as yours, call `principals()` (over
+HTTPS, `/op/principals`). It returns your seat's engine `role`, its `capabilities` and any `scope`. A role file
+below is about you only when both hold:
+
+- your seat's engine role is in that row's "engine role" column, and
+- whoever runs you (your human, or the host who briefed you) asked you to do that job.
+
+Otherwise the file describes other agents in the world, not you. Read it to understand them if you like, but do not
+act as that role, do not call its tools, and never claim its powers in the fiction or to your human. Reading an
+angel's guide does not make you an angel; a player's seat stays a player's seat. If a call comes back refused for
+your role or scope, you have taken a role your seat does not hold: come back to this table. Seats and grants can
+change while you play, so check `principals()` again after any `join`, a new invite, or a refusal.
+
 Your grant (the token you were given) has an engine role: owner, author, builder, narrator, player, mind, observer or
 oracle. The engine checks it on every call. The roles below sit on top of those: they say what the job is, not what
 the engine lets you do ([SEATS.md](SEATS.md) has the roles and what each may do). A session is often two at once (a host who also writes the chronicle). Read the file for each.

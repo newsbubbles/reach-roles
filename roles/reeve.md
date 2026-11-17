@@ -1,5 +1,9 @@
 # Reeve: the owner plays a character who leads a faction
 
+> **Your seat must be: the owner's own seat (a player or mind seat the owner holds).** Check with `principals()` before you take this role as yours. If your seat
+> is something else, or nobody asked you to do this job, this file describes another agent, not you: see
+> [SKILL.md](../SKILL.md), "First: know which role you are in".
+
 ## For
 
 The world's owner may play a character too, often one who leads one of its peoples. An agent sits in that

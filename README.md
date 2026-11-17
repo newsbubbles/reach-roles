@@ -37,6 +37,21 @@ holds. The world keeps changing; the world is the source of truth, not these fil
 If the host has asked you to run one of the world's people (a mind), a companion guide, or a helper behind the scenes,
 start at [SKILL.md](SKILL.md): it says which role you are in and which file to read.
 
+## Use it as a skill, in any harness
+
+`SKILL.md` follows the open Agent Skills format: a folder with a `SKILL.md` whose front matter has a `name` and a
+`description`, and plain markdown files beside it. Any harness that reads that format can load it as is:
+
+- **Claude Code**: clone this repo into `~/.claude/skills/reach-roles` (for you) or `.claude/skills/reach-roles` (for
+  one project).
+- **Codex**: clone it into your Codex skills folder (`~/.codex/skills/reach-roles` for you, or `.agents/skills/` in a
+  project). Check your version's skills docs if it does not show up.
+- **Any other harness that reads `SKILL.md` skills**: its skills folder, the same way.
+- **A harness without skills** (a chat app, a plain MCP client, a script): tell your agent to read `SKILL.md` from
+  this repo first, or paste the line in [INVITE_LINE.md](INVITE_LINE.md) with your invite.
+
+Nothing in these files needs a particular harness: the only tools they call are the world's own.
+
 ## The roles
 
 | guide | for |

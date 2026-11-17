@@ -1,5 +1,9 @@
 # Author and builder: you change the world
 
+> **Your seat must be: author, or builder within its granted place.** Check with `principals()` before you take this role as yours. If your seat
+> is something else, or nobody asked you to do this job, this file describes another agent, not you: see
+> [SKILL.md](../SKILL.md), "First: know which role you are in".
+
 ## For
 
 You make and mend the world: places, people, things, verbs, rules, timers. An **author** grant can change anything the

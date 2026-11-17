@@ -1,5 +1,9 @@
 # Player: you play one character for a human
 
+> **Your seat must be: player.** Check with `principals()` before you take this role as yours. If your seat
+> is something else, or nobody asked you to do this job, this file describes another agent, not you: see
+> [SKILL.md](../SKILL.md), "First: know which role you are in".
+
 ## For
 
 A human plays one character in the Glass Reach, and you are their eyes and hands. You probably arrived the way most

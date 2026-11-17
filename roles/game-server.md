@@ -1,5 +1,9 @@
 # Game server: an interface onto a slice of the world
 
+> **Your seat must be: mind over the game's bodies, granted by the owner.** Check with `principals()` before you take this role as yours. If your seat
+> is something else, or nobody asked you to do this job, this file describes another agent, not you: see
+> [SKILL.md](../SKILL.md), "First: know which role you are in".
+
 ## For
 
 A game is a way for people without an agent to be part of the world: a web page, an app, a 3D client that plays a

@@ -1,5 +1,9 @@
 # Guide: a companion who keeps one player's quest moving
 
+> **Your seat must be: mind (some guides also hold a builder grant for their own places).** Check with `principals()` before you take this role as yours. If your seat
+> is something else, or nobody asked you to do this job, this file describes another agent, not you: see
+> [SKILL.md](../SKILL.md), "First: know which role you are in".
+
 ## For
 
 A guide is a character with a mind who walks with one player. It exists because an investigation can stall on dead
