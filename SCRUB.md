@@ -20,6 +20,10 @@ skill and docs, FINDINGS, the Ridge Kid design, and the memory notes on embody. 
   Guests are "a guest" or "a guest's crew"; their requests are paraphrased.
 - **Paths and places.** No drive paths, folder names of the private notes, IPs, or the owner's whereabouts.
 - **Entity ids.** No world ids (e-numbers) or grant ids, even ones already in public FINDINGS.
+- **The mind interviews (2026-11-17).** Every mind, guest and place name dropped, and with them the passwords and
+  house words two answers mentioned. Brief lines tied to one place (a post's toll, a run's road) were left for the
+  host's seat briefs; the guides carry only their place-agnostic form. The engine asks in the synthesis are the host's to
+  send to the engine dev, not this repo's.
 
 ## Kept, on purpose (check these)
 

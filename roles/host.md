@@ -67,6 +67,21 @@ the quest notes), the open player threads aimed at it, and the next step of any 
 character would know; secret words stay out. A mind with only a sketch answers in character, and the quest stalls.
 (owner, 2026-11-14)
 
+What the minds said they needed from a brief, when asked (mind interviews, 2026-11-17):
+
+- **Who near them has a mind**, and which of those around them are a guest's bodies. A mind told to hand goods to
+  someone waited hours before learning that someone was a guest's character, played on the guest's own time.
+- **What their place costs and lacks**: its exits, any toll, its water, how far they can see from it.
+- **Standing orders that outrank goals**, in the words of whoever gave them.
+- **What they cannot do**: a trader whose word is only her word, a scout who can warn but not fight.
+
+Place-bound lines go in that seat's brief, never in the shared guides: the world changes, and a guide must hold in
+any place and any year. Brief lines also go stale, so re-read a mind's brief when its place or rules change.
+
+- **Interview the minds now and then**, out of character: what they got wrong, what the brief never told them, what
+  they would tell the next one. Give each session its own answer file: two sessions told the same file name overwrote
+  each other. (2026-11-17)
+
 ## Introducing a new guest's character
 
 1. Watch the grant until the character is seated. Wait for the seat to be embodied, not for a body on the grant: a

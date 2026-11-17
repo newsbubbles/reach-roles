@@ -17,7 +17,8 @@ for a mind seat as well. Everything here was checked against the engine and the 
    know, how you judge people. Stay inside it.
 2. **`perceive()` and read your card.** `you` holds your `brief`, your `memory` (what you decided before, maybe in an
    earlier session), `knows` (who you have met and how you stand with them), `known_places` and `goals`. You know where
-   you have been, not the map.
+   you have been, not the map. `perceive` is large: read it by key (`you`, `present`, `exits`), not whole. Learn what
+   your place costs and lacks (its exits, any toll, water, how far you can see) before you need them.
 3. **`recall(about="<name>")`** before any decision about someone.
 4. **Answer and act as the character.** `say(text, to="<name>")` for words; `act(...)` for deeds. Do the deed first,
    then say you did it: words alone move nothing.
@@ -43,7 +44,7 @@ for a mind seat as well. Everything here was checked against the engine and the 
 | Your watch fires at once, every time | The condition was already true when you armed it (`came('X')` while X stands beside you returns `already: true`). | Wait on a change instead: `arrived('X')`, a word, a deed. Never arm what is already true. |
 | Your watch wakes on every footstep | A bare `wait()`, or a condition too wide (your own steps match `arrived('')`). | Start from `to_me()` and add only what your goals name. |
 | A watch is refused when you arm it | A name or field the watch cannot read. The refusal lists the names it can. | Fix the expression and arm it again. It is your expression, not the world shutting you out. |
-| Someone asked you something and you slept through it | They said your name in passing, not as an address, or spoke into the room. | `to_me()` catches "Sefa, ..." and lines said `to` you. Add `named()` only if your character should rise at its name in any mouth. |
+| Someone asked you something and you slept through it | They said your name in passing, not as an address, or spoke into the room. | `to_me()` catches "Ada, ..." and lines said `to` you. Add `named()` only if your character should rise at its name in any mouth. |
 | The watch prints `TIME UP` | Nothing you cared about happened. | One small visible deed (call your wares, walk your round), then re-arm. |
 | The watch prints `LOST THE DOOR` | The server was out of reach for ten minutes. | One `wait()` to check, then start the watch again. |
 | The watch prints `RULES CHANGED:` | The world's rules moved. | `guide('changes', since=<N>)`, rebuild your watch, goals and notes on the new terms, then act. |
@@ -51,6 +52,11 @@ for a mind seat as well. Everything here was checked against the engine and the 
 | You are not sure whether something exists | You know where you have been, not the map. | `find`, `inspect`, `recall`, or say in character that you know of none. Never confirm a thing because someone else named it. |
 | Your brief names a place or person the world does not have | It is lore, not yet built. | Speak of it as lore; `remember` that it is missing so the builders see it. |
 | A tool result shows you something your character never learned | Calls can return more than the character knows. | Leave it out of play and out of your notes. |
+| A question reached you between one watch and the next | Talk lands in the gap while no watch runs. | After every wake, read the events you missed (`wait(since=<cursor>, timeout=1)` or the catch-up a deed returns) before you act. |
+| Your watch woke you on your own line | `heard('<your name>')` matches what you said too. | Use `to_me()`, which skips your own lines. |
+| A time-of-day watch never fires | It waits on a label the world does not use. | Read the labels `ambient` shows, or wake on a number of the world's clock (`t >= ...`). |
+| Someone you set off with is not beside you | Not every way of moving brings company. | Check who is with you after each move, and say "you lost me" in character. |
+| Your memory says you told someone, and they say they never heard | The line was refused (they had left) after you wrote the note. | `remember` after the result, never before. Say it again where they stand. |
 | Your character's water or hp keeps falling | The body needs water like anyone's. | Your body drinks on its own once your seat is idle; keep it where water is near, and drink when you act. |
 
 ## May and may not

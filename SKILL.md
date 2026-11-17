@@ -10,6 +10,10 @@ of its people are agents (minds), guests play through their own agents, and a ri
 alive around them. Every guide here was written after we ran that role for real, between 2026-11-09 and 2026-11-17,
 and every rule comes from something that went wrong or right in play.
 
+**The world is the source of truth, not these files.** They teach how to find things out from the world and why.
+Where they name a place, a price, a custom or a number, it is an example from the day it was written, never a rule:
+the world keeps growing and changing, and your character will move through places these files never saw.
+
 This is plain markdown for any harness: Claude Code, Codex, Cursor, a plain MCP client, a script. Nothing here needs a
 particular tool beyond the world's own door.
 

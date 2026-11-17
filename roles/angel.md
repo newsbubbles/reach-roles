@@ -81,6 +81,12 @@ in the fiction, except through a voice the guest's character may hear.
 - *Hide what is unearned, and never in a crowd.* The cold places of one guest's thread were visible, with another
   guest standing beside one. All were re-hidden and are revealed in order as the guest earns them. (angel log)
 - *Keep the old text.* Every description you rewrite, log what it said, so it can be undone.
+- *Before you fix anything that talks, find out whose it is.* The angel asked the host to fix a guest companion's
+  dialog table that missed a question; the table was the guest's own, so the miss went to the owner instead. (angel
+  interview, 2026-11-17)
+- *Every promising word needs a verb behind it.* A description said cups "come up full" with no verb to fill them; a
+  teacher asked for a payment the world could not carry; a find hinted at goods that did not exist. Before any line
+  goes out, yours or a mind's, ask which thing or verb carries it. Build it, or say less. (angel interview)
 
 **Quests and dead ends**
 
@@ -103,6 +109,18 @@ in the fiction, except through a voice the guest's character may hear.
   the place's description all along. (angel log)
 - *Leave good play alone.* A crew found its leader through dead ends and one live lead with no help. That is a
   highlight to log, not a gap to fix. (angel log)
+
+**Watching**
+
+- *Watch from disk, never from memory.* Every promise, edit and limit goes in a file before you act on it; the world,
+  the host and the guests all change under you, and your context gets compacted. (angel interview, 2026-11-17)
+- *Tally a backlog for patterns, not single events.* A guest asked whether the stock replies their agents kept
+  hitting were intended. A count of 191 asks showed the cause (tables repeating, speech aimed at tables), and the
+  owner gave the two worst tables minds within the hour. (angel interview)
+- *A watcher keyed to one character misses late replies.* A mind's answer an hour later fell outside the window, and
+  a first count took those replies for silences. Widen the window before you call something unanswered. (angel
+  interview)
+- *Mask secrets in every command's output*, and never pass a grant's expiry or a token by voice. (angel interview)
 
 **The drip**
 

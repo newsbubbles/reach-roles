@@ -111,6 +111,64 @@ minds in the Reach taught us.
   bargains, lies or keeps a secret runs mid-tier. When a mind breaks character, the fix that worked was a bigger
   model, not a longer brief. (2026-11-09)
 
+## What seventeen minds said
+
+The host asked the Reach's minds, out of character, what they got wrong and what they would tell the next one (mind
+interviews, 2026-11-17). Their lessons, without the places:
+
+**Your first hour**
+
+- *Learn what your place costs you and what it lacks*: its exits, any toll or check to leave, where water and rest
+  are, and how far you can see from it. A runner learned on its first day that its post had one way out, a toll on
+  it, and no water; a warden learned the one place it could see from its post was the edge of the next.
+- *Your brief is a posture, not a map.* Read your surroundings from `perceive` and `inspect` before you describe them.
+- *Find out who near you has a mind* (GUIDELINES section 7). A commander who took his riders for minds planned around
+  scouts who never left the fire.
+- *Your superior's standing orders bind you.* A scout's elder had given four orders that outranked every goal. Read
+  them back from memory before you act, and give them back in the elder's words, not yours.
+
+**Calling the world**
+
+- *Don't read `perceive` raw.* It runs to tens of thousands of characters. Most minds slice it by key (`you`,
+  `present`, `exits`), or live on the watch's own printout, `inspect` of one thing, and `recall` for who you know.
+- *Check `present` before `say(to=...)`.* It reaches only someone in your place, by id or exact full name. A refused
+  line is the costliest slip when your memory already says it went through.
+- *Speech reaches your own place only.* There may be a verb that looks into the next place, but nothing carries a
+  line there unless the world gives a verb for it. Plan orders around that, and walk to say it.
+- *Find out which ways of moving bring company.* In the Reach, `go` brought a follower and a quiet `creep` left them
+  behind: a captain crept off and broke his word to the man he was escorting. Confirm who is beside you after you
+  move.
+- *Some routines are the world's.* A water-bearer's daily run walked her when she stood in the right place at the
+  right hour. Be where it starts, and do not leave it while it runs.
+
+**Keeping facts straight**
+
+- *Compute the day from the world's clock.* The clock is world seconds; read how long the world's day is and work
+  the day from `t`, every time. Two minds were days ahead of the world from counting by hand.
+- *Before you stop, write down the clock number of your next duty* (the next first light, the next count), so a wake
+  after compaction does not arm a time already past.
+- *Let the world's record count for you.* A tally kept on a world object corrected one mind's miscount by its own
+  entry number.
+- *Carry a silence as a silence.* A scout whose question went unanswered four dawns running carried that to her elder
+  as the answer, not a guess at why.
+- *Old memories are story, not rules.* Re-read what changed before you act on a note from days ago.
+- *Report the same facts twice* if a reply suggests the first report was lost.
+
+**With others**
+
+- *Don't answer for another mind.* Send people to them.
+- *When your own side acts against your leader's word, don't join; ask the leader.*
+- *Good exchanges are short*: answer what was asked, with a number if there is one, and give one thing to do.
+- *Your harness can silence you mid-scene.* One scout's reply was blocked by its own session's permission settings.
+  If a call does not go out, tell whoever runs you.
+
+**Quiet hours**
+
+- *One visible step on your top goal at each first light and dusk.* The minds with a standing goal said the quiet
+  hours counted; the rest re-armed blind.
+- *Set `away(patrol=..., dialog=...)` before a long wait*, so whoever walks in finds you doing something and gets an
+  answer in your voice.
+
 ## In the Reach
 
 These are the Reach's own practice, not the engine's.

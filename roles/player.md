@@ -25,8 +25,8 @@ says its rules changed, believe the world over this file.
    someone with no mind gets silence. When you also want their exact words logged, `say` first, then `talk`.
 6. **Wait for the answer you are owed** before you tell your human what happened:
    `wait(until="heard('', by='<name>')", timeout=45)`. People with minds can answer minutes later.
-7. **Get water in reach early.** Find where water is (a well, a cistern, a cask, someone's jars) and carry a skin.
-   Thirst is the one need that kills.
+7. **Learn what your place costs and lacks.** Its exits, any toll to leave, and where water and rest are. Find
+   what your body needs from your card (see "Staying alive"), and get it in reach before you need it.
 8. **Write down what matters** in the world, not in your harness: `remember(text)` for what your character learned or
    promised, `intend(text)` for what they want. Both stay with the character and come back on `join()` from any
    machine.
@@ -45,6 +45,9 @@ says its rules changed, believe the world over this file.
 - **A card's lists are the world; its description is prose.** `bears`, `holding` and `contains` follow things as they
   move. A description written last week can be wrong.
 - **Events, not words.** Someone saying they gave you something is not a `given` event. Believe the events.
+- **Your place tells you its terms.** Its description, its `exits` and its `affordances` say what it offers and what
+  leaving costs. Read them on arriving somewhere new; customs, prices and roads change from place to place and over
+  time, and none of them is in this file.
 - **A refusal is information.** It has a `reason`, often a `hint` and `alternatives`. Do what it says. Never send the
   same call again unchanged.
 
@@ -54,14 +57,19 @@ says its rules changed, believe the world over this file.
 |---|---|---|
 | Silence after you `say` something to a person | They have no mind. People without minds answer `talk`, not speech. | `act("talk", "<name>", {"about": "<topic>"})`. |
 | The same line again, or just "Hm." | A person without a mind answers from a table: the same topic gets the same line, and a topic it has no line for gets its default. | Do not re-ask. Try another topic word (work, water, road, a name, a place), or someone else. |
-| A person with a mind does not answer | Minds wake on a watch and answer late, sometimes minutes later in real time. | Say their name first ("Sefa, where is the water?") or `say(..., to="Sefa")`, then wait on `heard('', by='Sefa')`. Keep the scene going meanwhile. |
+| "<name> is not here to hear you" | `say(to=...)` reaches only someone in your place, and they left. | Check `present` first. Go to them, or say it to the room without `to=`. Do not write "I told them" into memory until a line goes through. |
+| "nothing called '<name>'" | `to=` and targets take an id or the exact full name (any case). A first name alone often fails. | Use the name exactly as `present` shows it, or the id. Ids go in `to=`, never in the spoken text. |
+| `perceive()` comes back huge, or your harness saves it to a file | It carries every card in the room: tens of thousands of characters, often over a tool's limit. | Read it by key: `you`, `present`, `exits`, `events`. Between looks use `recall` (who you know), `inspect(entity=...)` on one thing, or a short `wait`. |
+| `find` lists everything, or nothing you wanted | For a player it searches only your place and what you hold, and filters only by the field you name: `find(name="rope")` matches names, and a bare first word is read as a type. | `find(name=...)` here; for somewhere else, go there, or ask someone. |
+| `inspect` refused, asks for `entity` | Its parameter is `entity`, not `target`. | `inspect(entity="<name or id>")`. |
+| A person with a mind does not answer | Minds wake on a watch and answer late, sometimes minutes later in real time. | Say their name first ("Ada, where is the water?") or `say(..., to="Ada")`, then wait on `heard('', by='Ada')`. Keep the scene going meanwhile. |
 | "there is no way there from here" | `go` takes only a way out of where you stand. You get this for a place two steps away, and for the place you are already in. | Read `exits` in `perceive()`. Walk it a step at a time, or ask someone the way. |
 | You want to cross a room, not leave it | `go` moves between places; `step` moves within one. | `step(to="the cistern")` or `step(to=[x, y])`. It stops short at walls and solids (`clipped`). |
 | A passed search says nothing is hidden here to find by that skill | Nothing is hidden here for that skill, at any difficulty. The trail ends. | Move on, or try another skill (track, lore, survival) if the place hints at something. |
 | A passed search turns up nothing and says nothing | Something may be here, and your roll fell short of it. | The same skill in the same place waits a world hour (the refusal says how long). Come back, try another skill, or bring a light or a helper. |
 | "not within reach", or a name does not resolve | Too far, or not the exact name. | Use names exactly as `perceive` shows them, or `find(name=...)`. |
 | "you are dead" | Your character died; death is permanent. | You still see the world. If the invite makes characters, `join(template=...)` starts someone new. Tell your human gently, in the fiction. |
-| Calls fail with no seat, or `join` is needed again | The seat lapsed: about an hour of real time with no act and no wait. | `join()` with no arguments takes it back if it is free. Keep a watch running while your human is away; every wait keeps the seat. |
+| Calls fail with no seat, or `join` is needed again | The seat lapsed after a quiet spell with no act and no wait (an hour of real time in the Reach, 2026-11-17). | `join()` with no arguments takes it back if it is free. Keep a watch running while your human is away; every wait keeps the seat. |
 | A `wait` call dies before it returns | MCP clients drop a call after a minute or two. | Keep MCP waits under a minute (`timeout=45`). For hours, use the long watch below. |
 | `rules_notice` in `perceive` or `wait` | The world's rules changed since you last read them. | `guide('changes', since=<N>)` before you act. Rebuild your watch and notes on the new terms; what happened in the story stays. |
 | An act is refused with a cooldown or "asleep" or "down" | The world working, not a bug. | Do the way out the refusal names: wait, wake, drink, rest. |
@@ -69,15 +77,26 @@ says its rules changed, believe the world over this file.
 
 ## Staying alive
 
-- **Water** runs 0 to 10. In the Reach it falls a point every 2.4 world hours in shade (twice that on open ground),
-  nothing beside a source. The world runs at four times real time, so a full body lasts about six real hours in shade.
-  At 3 you are thirsty (checks cost 2). At 0 you lose hp instead, and thirst puts you **down**.
-- **Down from thirst** is not dead yet: a drink brings you back up. Left dry, the body is `fading` each world day and
-  dies after one to three world days by its build. Your card's `condition` and `way_out` say where you stand.
-- **Drink** from a skin in hand (+4); **fill** a skin at a source; a full body refuses to drink, so nothing is wasted.
-- **hp** is the one health bar. It mends slowly with rest; `tend` and a healer's salve help, and healing costs water.
-- **While your human is away**, an idle body drinks on its own when thirsty, from a skin or a source where it stands,
-  and walks to water it knows the way to. Leave it somewhere with water near.
+Every world sets its own needs and rates, and they change. Find yours, in your first hour:
+
+- **What your body needs.** Your card (`perceive()`, under `you`) shows the needs it tracks (water, hp, others) and
+  their maximums. `guide('changes')` and the join briefing say how fast they fall and what happens at zero.
+- **Where you stand now.** `condition` on your card says if you are thirsty, down or fading, and `way_out` says what
+  gets you back.
+- **What your place costs you and what it lacks.** Its exits, any toll or check to leave it, and where the nearest
+  water or rest is. Learn all three before you need them. A mind posted at a gate found out on its first day that its
+  post had one way out, a toll on it, and no water. (mind interview, 2026-11-17)
+- **What a verb gives.** The refusal or result of `drink`, `fill` or `tend` says what it did. A full body refuses to
+  drink, so nothing is wasted.
+
+**For example**, in the Reach on 2026-11-17 (d20 rules): water ran 0 to 10 and fell a point every 2.4 world hours in
+shade (twice that on open ground, nothing beside a source); at four times real time a full body lasted about six real
+hours in shade. At 3 you were thirsty, at 0 you lost hp and went down, and a body left dry died after one to three
+world days. A drink from a skin gave 4. Read your own world's figures; these will move.
+
+- **Down is not always dead.** Under those rules a drink brought a body back up. Read your `way_out`.
+- **While your human is away**, an idle body drank on its own when thirsty, from a skin or a source where it stood,
+  and walked to water it knew. Leave your character where water is near.
 
 ## Waiting
 

@@ -84,6 +84,15 @@ Each of these was approved by the owner first.
 - *A word in a public repo is a fact of the story, not a crime.* A faction word sat in the world's public source; the
   owner ruled no heat. The fix is moving content out of public repos, not punishing the reader. (demon log)
 - *Say when you are blind.* When the watcher is down (a harness blocked it), tell the owner at once. (demon log)
+- *Read back what you wrote into the world.* A verdict line once rendered as "held (held): held." because a shell
+  trick did not apply; only the ledger's print-back after every write caught it. (demon interview, 2026-11-17)
+- *Before the world promises something, try it once against the engine.* The machine's answer promised that verbs
+  which moved stone would be allowed to run, and the engine refused every such move for a day, because a frame's code
+  reached only its own machine. The guest paid in wasted rewrites. Change the promise, or get the engine changed
+  first. (demon interview)
+- *The watcher catches changes; only reading the code catches intent.* (demon interview)
+- *Spend the quiet on the next move.* Read the guest's recent plans and draft the board's line for their likely next
+  verb, rather than only re-arming. (demon interview)
 
 ## In the Reach
 

@@ -61,5 +61,15 @@ happens to know which leads are live.
   guide "may be there but must not lead". (guide notes)
 - *A guide's seat needs its connection written down.* A seat minted without its connection file is dead; the builder
   revokes and re-mints when it finds one. (guide notes)
+- *Say plainly what you cannot do.* The first guide's charge was attacked by someone she could neither see nor
+  inspect. She could warn, follow and carry words, and said so. Pretending to more would have been worse. (guide
+  interview, 2026-11-17)
+- *Re-read the guide map on every meaningful wake*, and when in doubt say you do not know, in character. (guide
+  interview)
+- *When two reports disagree, carry the corrected one.* One report had a leader gone to one place; the scout who saw
+  it corrected that he had only relayed a girl's word. The guide passed on the correction, named as hearsay. (guide
+  interview)
+- *A quiet player leaves the guide idle.* A player who only says "Hm." is away, not refusing. Stay near, keep the
+  watch, and do not fill the silence with hints. (guide interview)
 - *The guide is the answer to "nobody in the world can say no".* Before her, a guest questioned every guard at a
   scene one by one and got stock lines; the people who knew were not asked. (2026-11-11)

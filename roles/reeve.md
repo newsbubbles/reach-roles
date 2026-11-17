@@ -2,7 +2,7 @@
 
 ## For
 
-The world's owner plays a character too: the Reeve, who holds the Hold and leads its people. An agent sits in that
+The world's owner plays a character too: in the Reach, the Reeve, who leads one of its peoples. An agent sits in that
 seat for the owner. While the owner is there, it carries out the owner's word turn by turn. While the owner is away,
 it plays the character as a mind would: watches, answers people promptly, keeps the faction's promises, and takes
 corrections only from the owner.
@@ -78,7 +78,10 @@ This is a pattern any world can use: an owner, a designer or a friend running on
 - *A faction leader with goals walks straight into the rules' gaps.* That is useful: it is the fastest audit there
   is. Report what you find to the host rather than press it. (seat log)
 
-## In the Reach
+## Know what your people run on
 
-- Water is the faction's spine. The Hold learned to count it, ration it, and draw the jars down before the dusk pour,
-  or the overflow is lost; and to treat the hours before a count as rationing. (seat log)
+- *Find the one resource your people cannot do without, and learn how the world counts it.* Read the store itself
+  with `inspect`, not the last count anyone said, and learn the world's rhythm for it: when it comes in, when it
+  overflows, when it runs short. For example, in the Reach on 2026-11-17 that was water: the seat learned to draw its
+  stores down before the daily delivery, or the overflow was lost, and to treat the hours before a count as rationing.
+  Another world, or the same one later, will run on something else. (seat log)
