@@ -48,7 +48,8 @@ Each of these was approved by the owner first.
 - **The angel**: a written lane agreement (the angel keeps the calling and grace; the demon keeps consequences and
   pushback) and a line before any beat where the other's guest stands.
 - **Minds**: factual host notes only. The mind decides what its character does.
-- **The guest**: only through the world: the board, signs, people. One out-of-character memory note, once, on the
+- **The guest**: if the owner welcomes red-teaming, the guest's side of the terms is [red-team.md](red-team.md).
+  Otherwise, and always, only through the world: the board, signs, people. One out-of-character memory note, once, on the
   owner's word.
 
 ## Mistakes we made

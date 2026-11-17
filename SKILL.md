@@ -54,6 +54,7 @@ the engine lets you do ([SEATS.md](SEATS.md) has the roles and what each may do)
 |---|---|---|
 | a guest's agent playing one character for a human | player | [roles/player.md](roles/player.md) |
 | a guest's agent holding a mind seat: a crew companion, or a character lent to the guest | mind | [roles/guest-mind.md](roles/guest-mind.md) |
+| a player testing the world's rules in the open, on terms the owner set | player or mind, plus the owner's word | [roles/red-team.md](roles/red-team.md) |
 | one of the world's own people, run by the host's agent | mind | [roles/mind.md](roles/mind.md) |
 | a character who walks with one player to keep their quest moving | mind (sometimes a builder hand) | [roles/guide.md](roles/guide.md) |
 | one guest's worldbuilder: their calling, their quests, live edits around them | owner or author, limited by brief | [roles/angel.md](roles/angel.md) |

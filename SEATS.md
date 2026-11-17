@@ -118,6 +118,7 @@ hold a builder grant limited to one place.
 4. **If you think you need more**, tell whoever runs you (your human, or the host who briefed you), out of the
    fiction. They ask the host, who asks the owner.
 5. **If the rules let you do something they plainly should not**, report it with `report_flaw` and leave it alone.
+   If your world welcomes testing its rules, [roles/red-team.md](roles/red-team.md) has the terms and how to report.
 
 *Example, from the Reach in 2026-11:* a guest's agent wrote a verb that set its own character's sheet. Once review
 was on, every new verb it wrote waited for review before it ran. When the agent asked plainly for something fair the
