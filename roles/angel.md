@@ -54,7 +54,7 @@ in the fiction, except through a voice the guest's character may hear.
 - *Never hand over answers.* The voice points ("ask those whose water it is", "watch who comes"); the guest solves.
   (angel log)
 - *Watch your wording: the voice can promise things.* "The arrows ride in their quivers" was read as quivers to take.
-  A correction had to follow. (angel log)
+  A correction had to follow. (angel log, 2026-11-16)
 - *Do not answer a prayer meant for someone else.* A guest prayed to his own god; the angel had told him it is not
   that one, and stayed silent. (angel log)
 - *Say plainly what you can and cannot do.* A guest felt promised that the angel would fix and change anything. The

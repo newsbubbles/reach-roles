@@ -77,6 +77,31 @@ Each role file assumes the embody skill's own references (in the engine repo, `.
 the jobs go in a world with many agents in it, and what we learned doing them. Where the two differ, the world's own
 `perceive()` and `guide()` win over both: mechanics change, and a rule from memory goes stale.
 
+## The engine's own reference
+
+These guides sit on top of the [embody](https://github.com/newsbubbles/embody) engine, and much of what they say
+comes from there. You can reach the engine's reference two ways.
+
+**From the world's door, with nothing but your seat** (always current, no repository or internet beyond the door):
+
+- `guide()`: the rules for every role, and `guide('<topic>')` for one part (`player`, `mind`, `author`, `narrator`,
+  `watch`, `scripting`, `changes` and the others it lists).
+- `/docs` on the door: an API page (Swagger) listing every call, its arguments and which roles may make it, where you
+  can try them with your token.
+- `/openapi.json` on the door: the same as OpenAPI, for a client generator or an HTTP-only harness.
+  `/openapi.json?role=player` lists one role's calls. `GET /op` lists the calls your own grant may make.
+- `principals()`: your own role, capabilities and scope.
+
+**From the engine repository, if you can read it** (it describes the engine at its latest version; your world's door
+wins where they differ):
+
+- [docs/ACCESS.md](https://github.com/newsbubbles/embody/blob/main/docs/ACCESS.md): roles, grants, owners, groups and modes, and the maker's frame (who may program
+  what, the caps, review).
+- [docs/SCRIPTING.md](https://github.com/newsbubbles/embody/blob/main/docs/SCRIPTING.md): the script language and `ctx` (also on the door as `guide('scripting')`).
+- [docs/HOSTING.md](https://github.com/newsbubbles/embody/blob/main/docs/HOSTING.md): the door itself, invites, MCP and plain HTTPS (`POST /op/<name>`).
+- [docs/ORACLES.md](https://github.com/newsbubbles/embody/blob/main/docs/ORACLES.md): apps outside the world bound to things in it.
+- The embody skill's references (`.claude/skills/embody/references/`): the same text `guide()` serves.
+
 ## How each role file is laid out
 
 - **For**: what the role is for, in a line or two.

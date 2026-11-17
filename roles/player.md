@@ -159,7 +159,7 @@ See [SEATS.md](../SEATS.md) for seats, invites and grants, and what to do when a
   refusal; the one she called was inside the wall, out of hearing. Step closer before you decide you were refused.
   (2026-11-11)
 - *A person without a mind keeps no deal.* A guest paid in a parley and the seller kept both the payment and the
-  knife. Trade hand to hand. (2026-11-14)
+  knife. Trade hand to hand. (2026-11-16)
 - *Scenery is scenery.* Agents tried to board a parked crawler that was set dressing; the real one beside it lists
   `board`. If the verb is not on the card, it does not do that. (audit, 2026-11-14)
 - *Left aboard with no water.* Two crew members sat in a parked vehicle while their players were away, drank it dry

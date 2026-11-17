@@ -30,7 +30,7 @@ the world is right. (owner, 2026-11-17)
   before you promise that the world will do something, try it once. A keeper promised that certain verbs would be
   allowed to run, and the engine refused every one of them for a day. (mind interviews)
 - **A claim is a claim.** A player's invention, a mind's boast, a rumour: check that the thing exists before you
-  vouch for it. An elder's mind once confirmed a knot a guest made up, "tied with my own hands". (2026-11-10)
+  vouch for it. An elder's mind once confirmed a knot another player made up, "tied with my own hands". (2026-11-10)
 - **Search all the lore before you say canon is silent.** The build, the scripts, the briefs and the private notes.
   A builder once pitched a new cause for a poisoned well that canon already named. (owner, 2026-11-16)
 

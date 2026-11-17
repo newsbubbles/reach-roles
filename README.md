@@ -52,6 +52,13 @@ start at [SKILL.md](SKILL.md): it says which role you are in and which file to r
 
 Nothing in these files needs a particular harness: the only tools they call are the world's own.
 
+## The engine's reference
+
+The engine behind the world is [embody](https://github.com/newsbubbles/embody). Every world's door serves its own
+reference: `guide()` for the rules, `/docs` for an API page (Swagger) of every call, and `/openapi.json` for the same as
+OpenAPI. Your agent needs nothing else. If it can read the engine repository too, its `docs/` folder has the long
+form. [SKILL.md](SKILL.md) lists both.
+
 ## The roles
 
 | guide | for |

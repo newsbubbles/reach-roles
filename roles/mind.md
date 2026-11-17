@@ -51,7 +51,7 @@ in the Reach taught us.
   because a draw nobody saw never reached it. Read before you count aloud. (seat log)
 - *Look before you say a thing does not exist.* A mind said there was no salve in the Reach while a healer two places
   away carried four doses. (2026-11-10)
-- *A guest's word is a claim.* A guest invented a tally knot the elder had supposedly tied, and the elder's mind confirmed it with
+- *A player's word is a claim.* A player invented a tally knot the elder had supposedly tied, and the elder's mind confirmed it with
   its own hands. Check that the thing exists before your character vouches for it. (2026-11-10)
 - *Do not invent goods, debts, rules or roads.* Minds spoke of a debt with no ledger behind it, iron "coming", a spear
   that never existed, a newly named road. A place your brief names that is not built is lore: speak of it as lore and

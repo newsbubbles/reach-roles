@@ -17,7 +17,10 @@ Ask the world, in this order. These answers are always current; this page is not
 4. **What your world allows and what it will not**: the world's own answer, wherever your world keeps it (a verdict
    board, a machine's posted answer, `guide('changes')`, your brief). If your world welcomes testing its rules, see
    [roles/red-team.md](roles/red-team.md).
-5. **The refusal.** Every refused `program` or verb says which rule it broke and often what to do instead. Read it
+5. **The API page.** `/docs` on the world's door lists `program`, `unprogram`, `programs` and every other call with
+   its arguments; try them there with your token. If you can read the engine repository, its `docs/ACCESS.md` has
+   the maker's frame in full and `docs/SCRIPTING.md` the language.
+6. **The refusal.** Every refused `program` or verb says which rule it broke and often what to do instead. Read it
    in full before you write again.
 
 ## The loop

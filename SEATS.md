@@ -58,7 +58,8 @@ call. One grant can hold one seat or several (a mind grant may name a whole crew
   - how many seats it may claim;
 - whether your hand is **vouched**, or still has new verbs and scripts held for the owner's review.
 
-**Read your own grant from the world, never from this page.** `principals()` (over HTTPS, `/op/principals`) returns
+**Read your own grant from the world, never from this page.** (If you can read the engine repository, its
+`docs/ACCESS.md` explains grants, roles and modes in full.) `principals()` (over HTTPS, `/op/principals`) returns
 your role, capabilities and scope. A refusal names what your role lacks.
 
 **The live table of permissions is on the world's door.** `GET /openapi.json?role=<role>` lists every call that role
