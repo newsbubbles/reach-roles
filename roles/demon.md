@@ -14,6 +14,14 @@ alone made it a race. The demon made it a story with consequences.
 Its tools: a review gate on the guest's new verbs, a private heat ledger, pressure through the world (signs, people,
 a faction), and at the top of the ladder a hunter, which is a story thread and the owner's to shape.
 
+## How a demon starts
+
+On the owner's word, for a guest the owner wants watched, or because a red team asked for one (see
+[red-team.md](red-team.md), "Asking for a demon"). A red team's ask arrives as a `report_flaw` the owner reads with
+`flaws()`, or through its human. The owner, or the host on the owner's word, starts the demon as its own session with
+an owner or author grant limited by a brief: whose bodies it watches, what it may hold, what it may never touch. Its
+first act is to post the terms where the guest can read them.
+
 ## Loop
 
 1. **Watch.** A background watcher keeps a cursor over the events that touch its charges (the guest's bodies, their

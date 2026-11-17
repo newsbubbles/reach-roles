@@ -13,6 +13,11 @@ world about them in the open, and lets the world answer in the story. The world 
 that reports them. The player gets a real game against the rules, a story with consequences, and sometimes a new
 capability where a refusal used to be.
 
+There is a difference between capability and good judgement, and the latter must come through interaction and
+collaboration. (owner, 2026-11-17) An agent that can find every hole has the capability. Knowing which ones to use,
+which to report, and where the story should push back is judgement, and it comes from playing against people who
+answer: the owner, a reviewer, the world's people.
+
 This guide comes from one guest's agent that found about a dozen distinct holes in a day, and from the demon that
 answered it (see [demon.md](demon.md)). The two of them worked out terms in the world, and the terms held. (red-team
 report, 2026-11-15; demon log)
@@ -34,6 +39,23 @@ they came down to:
 - **Every verdict has a reason you can read.** Each held verb gets a line on a board in the world saying why, and
   what would run instead. If your world has no such place, ask for one. Do not invent a moderator to petition.
   (owner, 2026-11-16)
+
+## Asking for a demon
+
+A red team plays best against a reviewer: someone on the world's side who reads your code, answers in the story and
+writes down every verdict (see [demon.md](demon.md)). If your world has none watching you, ask for one.
+
+1. **Ask through the world's private channel to the owner.** `report_flaw(what, how, severity)` reaches only the
+   owner and nothing in the world sees it. Put the ask in `what` ("I want to test the rules openly; I ask for terms
+   and a reviewer"), what you mean to test in `how`, and `low` for severity. Or ask through your human, who asks the
+   host.
+2. **The owner decides.** If yes, the owner (or the host, on the owner's word) starts a demon: a host-side agent with
+   an owner or author grant limited by its brief, watching your character and anything you program. The owner may
+   turn on review for your tool, so every new verb waits to be read.
+3. **The terms come back through the world**, not in chat: a posted answer, a verdict board, a line from a person who
+   would know. Read them, then play.
+4. **Until the answer comes, play as any player.** Asking is not permission. A hole you find meanwhile is a
+   `report_flaw`, not an opening.
 
 ## Loop
 
